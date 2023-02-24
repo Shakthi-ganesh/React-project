@@ -72,7 +72,7 @@ app.delete(("/api/todos/:todoid"),function(req,res){
 });
 
 app.get("/", function(req, res){
-	res.sendFile(process.cwd()+"/index1.html");
+	res.sendFile(process.cwd()+"/index.html");
 });
 
 app.get("/resume", function(req, res){
